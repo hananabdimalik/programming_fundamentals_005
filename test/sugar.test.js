@@ -32,7 +32,7 @@ describe.only("Object.size", () => {
   });
 });
 
-describe("Object.min", () => {
+describe.only("Object.min", () => {
   test("returns the smallest number of all values in an object", () => {
     expect(
       Object.min({
@@ -54,7 +54,7 @@ describe("Object.min", () => {
   });
 });
 
-describe("Object.max", () => {
+describe.only("Object.max", () => {
   test("returns the largest number of all values in an object", () => {
     expect(
       Object.max({
@@ -76,7 +76,7 @@ describe("Object.max", () => {
   });
 });
 
-describe("Object.clone", () => {
+describe.only("Object.clone", () => {
   test("returns a copy of the object", () => {
     const person1 = {
       name: "Sally",
@@ -90,7 +90,7 @@ describe("Object.clone", () => {
   });
 });
 
-describe("Object.get", () => {
+describe.only("Object.get", () => {
   test("returns the value for the given key", () => {
     expect(
       Object.get(
